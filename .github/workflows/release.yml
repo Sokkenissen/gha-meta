@@ -49,6 +49,7 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
+      packages: write
     timeout-minutes: 30
     outputs:
       releases_created: ${{ steps.release-output.outputs.releases_created }}
